@@ -1,0 +1,158 @@
+/*
+
+//..............................................................................................................................
+//.NNNNNNN......NNNNNN...IIIIII..RRRRRRRRRRRRRRRRR...........AAAAAAA..............AAAAAAAA........DDDDDDDDDDDDDDD.......IIIIII..
+//.NNNNNNN......NNNNNN...IIIIII..RRRRRRRRRRRRRRRRRR..........AAAAAAAA.............AAAAAAAA........DDDDDDDDDDDDDDDDD.....IIIIII..
+//.NNNNNNNN.....NNNNNN...IIIIII..RRRRRRRRRRRRRRRRRRR........AAAAAAAAA.............AAAAAAAAA.......DDDDDDDDDDDDDDDDDD....IIIIII..
+//.NNNNNNNN.....NNNNNN...IIIIII..RRRRRRRRRRRRRRRRRRR........AAAAAAAAA............AAAAAAAAAA.......DDDDDDDDDDDDDDDDDD....IIIIII..
+//.NNNNNNNNN....NNNNNN...IIIIII..RRRRRR.....RRRRRRRR.......AAAAAAAAAAA...........AAAAAAAAAA.......DDDDDD....DDDDDDDDD...IIIIII..
+//.NNNNNNNNNN...NNNNNN...IIIIII..RRRRRR.......RRRRRR.......AAAAAAAAAAA...........AAAAAAAAAAA......DDDDDD......DDDDDDD...IIIIII..
+//.NNNNNNNNNN...NNNNNN...IIIIII..RRRRRR.......RRRRRR.......AAAAAAAAAAAA.........AAAAAAAAAAAA......DDDDDD.......DDDDDDD..IIIIII..
+//.NNNNNNNNNNN..NNNNNN...IIIIII..RRRRRR.......RRRRRR......AAAAAA.AAAAAA.........AAAAAAAAAAAA......DDDDDD........DDDDDD..IIIIII..
+//.NNNNNNNNNNN..NNNNNN...IIIIII..RRRRRR.....RRRRRRRR......AAAAAA.AAAAAA........AAAAAA..AAAAAA.....DDDDDD........DDDDDD..IIIIII..
+//.NNNNNNNNNNNN.NNNNNN...IIIIII..RRRRRRRRRRRRRRRRRRR......AAAAA...AAAAAA.......AAAAAA..AAAAAA.....DDDDDD........DDDDDD..IIIIII..
+//.NNNNNNNNNNNNNNNNNNN...IIIIII..RRRRRRRRRRRRRRRRRR......AAAAAA...AAAAAA.......AAAAAA..AAAAAAA....DDDDDD........DDDDDD..IIIIII..
+//.NNNNNNNNNNNNNNNNNNN...IIIIII..RRRRRRRRRRRRRRRRR.......AAAAAA...AAAAAA......AAAAAA....AAAAAA....DDDDDD........DDDDDD..IIIIII..
+//.NNNNNN.NNNNNNNNNNNN...IIIIII..RRRRRRRRRRRRRRR........AAAAAA.....AAAAAA.....AAAAAA....AAAAAA....DDDDDD........DDDDDD..IIIIII..
+//.NNNNNN..NNNNNNNNNNN...IIIIII..RRRRRR.RRRRRRRRR.......AAAAAAAAAAAAAAAAA.....AAAAAAAAAAAAAAAAA...DDDDDD........DDDDDD..IIIIII..
+//.NNNNNN..NNNNNNNNNNN...IIIIII..RRRRRR...RRRRRRRR......AAAAAAAAAAAAAAAAA....AAAAAAAAAAAAAAAAAA...DDDDDD........DDDDDD..IIIIII..
+//.NNNNNN...NNNNNNNNNN...IIIIII..RRRRRR....RRRRRRR.....AAAAAAAAAAAAAAAAAAA...AAAAAAAAAAAAAAAAAA...DDDDDD.......DDDDDDD..IIIIII..
+//.NNNNNN...NNNNNNNNNN...IIIIII..RRRRRR.....RRRRRRR....AAAAAAAAAAAAAAAAAAA..AAAAAAAAAAAAAAAAAAAA..DDDDDD......DDDDDDD...IIIIII..
+//.NNNNNN....NNNNNNNNN...IIIIII..RRRRRR.....RRRRRRRR...AAAAAA.......AAAAAAA.AAAAAA........AAAAAA..DDDDDD....DDDDDDDDD...IIIIII..
+//.NNNNNN.....NNNNNNNN...IIIIII..RRRRRR......RRRRRRR..RAAAAA.........AAAAAA.AAAAAA........AAAAAA..DDDDDDDDDDDDDDDDDD....IIIIII..
+//.NNNNNN.....NNNNNNNN...IIIIII..RRRRRR.......RRRRRRR.RAAAAA.........AAAAAAAAAAAA.........AAAAAAA.DDDDDDDDDDDDDDDDDD....IIIIII..
+//.NNNNNN......NNNNNNN...IIIIII..RRRRRR.......RRRRRRRRRAAAAA.........AAAAAAAAAAAA..........AAAAAA.DDDDDDDDDDDDDDDDD.....IIIIII..
+//.NNNNNN......NNNNNNN...IIIIII..RRRRRR........RRRRRRRRAAAA...........AAAAAAAAAAA..........AAAAAAADDDDDDDDDDDDDDD.......IIIIII..
+//..............................................................................................................................
+
+
+*/
+
+/* ==========================================================================
+   Social Media Header
+   ========================================================================== */
+.social-media { background-color: rgba(243,235,207,1); }
+.social-media .social-fb { width: 50px; padding-top: 7px;}
+.social-media .social-fb a { display: block; float: left; margin-right: 5px; }
+
+/* ==========================================================================
+   HTML Elements
+   ========================================================================== */
+
+h1 { font-family: 'Poppins', sans-serif; }
+h4 { font-family: ovo; font-weight: bold; font-size: 45px; }
+a { text-decoration: none; color: black; }
+.button { color: black; background-color: rgba(216,194,86,1); padding: 12px 50px; }
+.button:hover { color: white; background-color: rgba(216,194,86,1); }
+
+/* ==========================================================================
+   Snippets
+   ========================================================================== */
+
+.hide { display: none; }
+.row.nopadding { padding: 0px; margin: 0px; }
+.row .nopadding { padding: 0px; margin: 0px; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.pt-20 { padding-top: 20px; }
+.pb-20 { padding-bottom: 20px; }
+.space { overflow: hidden; }
+
+/* ==========================================================================
+   Header block
+   ========================================================================== */
+
+.header { text-align: center; padding: 44px 0px 12px;  }
+
+/* ==========================================================================
+   Navigation block
+   ========================================================================== */
+
+.navigation { padding-bottom: 10px; }
+.navigation a { color: black; font-weight: bold; font-family: ovo; padding-right: 62px; }
+.navigation a:hover { color: #969696; }
+
+.full-image.container-fluid { position: relative; padding: 0px; max-height: 470px; overflow: hidden; }
+.full-image .card-info { background-color: rgba(249,245,233,0.8); position: absolute; top: 100px; left: 20%; padding: 20px; text-align: center; width: 475px; height: 237px; }
+
+.card-info { line-height: 33px; font-size: 18px; }
+.card-info .btn-area { position: relative; }
+.card-info .btn-area a { position: absolute; top: 10px; left: 25%; }
+.card-info .btn-area a:hover { background-color: rgba(193,162,8,1); }
+
+@media only screen and (max-width: 768px) {
+    .full-image .card-info { top: 5%; left: 5%; width: 90%; }
+    .card-info .btn-area a { left: 11%; top: 30px; }
+}
+
+/* ==========================================================================
+   Social Media Container
+   ========================================================================== */
+
+.site-social-container { display: flex; justify-content: start; flex-direction: row; }
+.social-fb svg { width: 20px; }
+.site-social-container p { margin: 0px; font-size: 12px; text-transform: uppercase; letter-spacing: 5px; padding: 8px; }
+.col-sm-12 .site-social-container ,
+.site-social-container.centered-social { width: 165px; margin: 0px auto; }
+
+@media only screen and (min-width: 768px) {
+    .nav { display: flex; }
+}
+@media only screen and (max-width: 768px) {
+    .nav { display: block; }
+    .nav li a { display: block; width: 100px; margin: 0px auto; padding: 7px 0px; text-align: center; }
+}
+
+
+.img-profile { margin: 0px auto; width: 298px; }
+.img-profile img { padding: 8px; border: 1px solid rgba(216,194,86,1); }
+.profile-content p { font-size: 18px; }
+.profile-content h2 { font-family: ovo; font-weight: bold; }
+@media only screen and (max-width: 768px) {
+    .profile-content { margin: 20px 0px; text-align: center; padding: 0px 5%; }
+}
+
+
+.container-featured-articles h2 { font-size: 38px; font-family: ovo; text-align: center; }
+.articles h4 { font-size: 26px; font-weight: normal; padding: 12px 4px; margin-bottom: 0px;  }
+.articles h4 a { color: black; transition: color 400ms; }
+.articles h4 a:hover { color: #969696; }
+.articles .field-date { color:#cacaca; }
+
+/* ==========================================================================
+   Newsletter block
+   ========================================================================== */
+
+.container-wrapper-newsletter { background-color: rgba(132,186,189,1); min-height: 200px; }
+.form-newsletter { width: 490px; margin: 15px auto 0px; }
+.form-newsletter input { margin-right: 10px; width: 300px; }
+.form-newsletter input,
+.form-newsletter a { float: left; display: block;}
+.container-wrapper-newsletter input { padding: 12px; border: none;  display: block;  }
+.container-wrapper-newsletter h3 { text-align: center; }
+@media only screen and (max-width: 768px) {
+    .form-newsletter { width: 90%; overflow: hidden; margin-bottom: 50px; }
+    .form-newsletter input,
+    .form-newsletter a { width: 100%; }
+    .form-newsletter input { margin-bottom: 10px; }
+}
+
+/* ==========================================================================
+   Footer block
+   ========================================================================== */
+
+.container-footer-separator { background-color: rgba(243,235,207,1); }
+
+.container-wrapper-bg { background-color: rgba(249,245,233,1); }
+.container-wrapper-bg .content p,
+.container-wrapper-bg .content h3 { text-align: center; }
+.footer { min-height: 100px; }
+
+/* ==========================================================================
+   Copyright block
+   ========================================================================== */
+
+.copyright { background-color: rgba(132,186,189,1); padding: 5px 10px; letter-spacing: 3.2px; font-size: 11px; }
+@media only screen and (max-width: 768px) {
+    .copyright { text-align: center; }
+}
