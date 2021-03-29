@@ -113,11 +113,17 @@ a { text-decoration: none; color: black; }
 }
 
 
+/* ==========================================================================
+   Featured Articles
+   ========================================================================== */
+
 .container-featured-articles h2 { font-size: 38px; font-family: ovo; text-align: center; }
 .articles h4 { font-size: 26px; font-weight: normal; padding: 12px 4px; margin-bottom: 0px;  }
 .articles h4 a { color: black; transition: color 400ms; }
 .articles h4 a:hover { color: #969696; }
 .articles .field-date { color:#cacaca; }
+.articles .article .img { width: 335px; margin: 0px auto; overflow: hidden; }
+.articles .article .body { text-align: center; }
 
 /* ==========================================================================
    Newsletter block
